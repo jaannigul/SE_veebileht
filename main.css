@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .logo {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+    padding-top: 200px;
+    display: block;
+  }
+  
+  .päis {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .veerg {
+    float: left;
+    padding: 10px;
+    height: 500px; /* muutlik? */
+  }
+  
+  /* vasakpoolne ja parempoolne veerg on 25% lehe laiusest */
+  .veerg.ääred {
+    width: 25%;
+  }
+  
+  /* keskmine veerg 50% lehe laiusest */
+  .veerg.keskmine {
+    width: 50%;
+  }
+  
+  .rida:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .jalus {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* dünaamiline kujundus - veerud vastavalt vajadusele liiguvad */
+  @media (max-width: 600px) {
+    .veerg.ääred, .veerg.keskmine {
+      width: 100%;
+    }
+  }
