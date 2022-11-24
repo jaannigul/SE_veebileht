@@ -1,0 +1,61 @@
+.kodulehtlogo{
+    width: 10%;
+    position:relative;
+    
+}
+.header img{/* image clickbox on liiga väike, ei tea miks */
+    float: left;
+    width:10%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.header h2{
+    position:relative;
+    margin:60px;
+    text-align: center;
+    font-size: 35px;
+}
+.accordion {
+    background-color: rgb(185, 185, 185);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 18px;
+
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: rgb(170, 170, 170);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    width: 50%;
+    
+}
+.accordion:after {
+    content: '\02795'; /* pluss */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    
+}
+  
+.active:after {
+    content: "\2796"; /* miinus */
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
