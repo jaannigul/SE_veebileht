@@ -167,26 +167,26 @@
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
-}
+  }
 
-.sotsiaalmeedia li{
+  .sotsiaalmeedia li{
     margin: 0 10px;
-}
+  }
 
-.sotsiaalmeedia a{
+  .sotsiaalmeedia a{
     text-decoration: none;
     color: #fff;
     border: 1.1px solid white;
     padding: 5px;
     border-radius: 50%;
-}
+  }
 
-.sotsiaalmeedia a i{
+  .sotsiaalmeedia a i{
     font-size: 1.1rem;
     width: 20px;
     transition: color .4s ease;
-}
+  }
 
-.sotsiaalmeedia a:hover i{
+  .sotsiaalmeedia a:hover i{
     color: aqua;
-}
+  }
