@@ -1,11 +1,8 @@
-.kodulehtlogo{
-    width: 10%;
-    position:relative;
-    
-}
+
 .header img{/* image clickbox on liiga väike, ei tea miks */
     float: left;
     width:10%;
+    height:15%;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -25,7 +22,7 @@
     text-align: left;
     border: none;
     outline: none;
-    transition: 0.4s;
+    transition: 0.2s;
     font-size: 18px;
 
 }
