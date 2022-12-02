@@ -15,6 +15,7 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("assets/img/Lombarti12.png");
     background-size:cover;
+
   }
     h1, h2, h3, h4, h5{
       margin:1px;
@@ -195,3 +196,14 @@ html{
   .sotsiaalmeedia a:hover i{
     color: aqua;
   }
+
+
+@keyframes fadePageIn{
+  from{opacity:0;}
+  to{opacity:100%;}
+}
+
+@keyframes fadeVideoOut{
+  from{opacity:100%}
+  to{opacity:50%;}
+}
