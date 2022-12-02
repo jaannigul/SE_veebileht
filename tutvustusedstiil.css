@@ -4,6 +4,9 @@
     display:flex;
     align-items: center;
     justify-content: center;
+
+    animation: slideParemalt;
+    animation-duration: 1s;
 }
 
 .marion{
@@ -12,13 +15,18 @@
     align-items: center;
     justify-content: center;
 
+    animation: slideVasakult;
+    animation-duration: 1s;
 }
 
-.lumi-lee{
+.lumilee{
     color:white;
     display:flex;
     align-items: center;
     justify-content: center;
+
+    animation: slideParemalt;
+    animation-duration: 1s;
 }
 
 .freyapilt{
@@ -28,6 +36,7 @@
     margin-left: 7%;
     justify-content: right;
     flex-basis:50%;
+
 }
 .marionpilt{
     margin-top: 5%;
@@ -61,3 +70,12 @@ img{
     border-radius: 10%;
 }
 
+@keyframes slideParemalt{
+    from{opacity: 0; padding-left:10%;}
+    to{opacity: 100; padding-left:0%;}
+}
+
+@keyframes slideVasakult {
+    from{opacity: 0; padding-right:10%;}
+    to{opacity: 100; padding-right:0%;}
+}
