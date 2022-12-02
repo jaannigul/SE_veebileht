@@ -5,7 +5,7 @@
   br {
     display: block; 
     content: ""; 
-    margin-top: 46px; 
+    /*margin-top: 46px; */
   }
 
   body {
@@ -44,11 +44,13 @@
   
   /* vasakpoolne ja parempoolne veerg on 25% lehe laiusest */
   .veerg.ääred {
+    margin-top: 46px;
     width: 25%;
   }
   
   /* keskmine veerg 50% lehe laiusest */
   .veerg.keskmine {
+    margin-top:46px;
     width: 50%;
   }
   

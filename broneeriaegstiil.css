@@ -1,0 +1,19 @@
+
+.broneerimine {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 120%;
+    padding-top: 3%;
+    padding-left: 5%;
+    color: aliceblue;
+}
+
+br {
+    content: "";
+    margin-top: 2px;
+}
+
+input {
+    margin-bottom: 20px;
+}
