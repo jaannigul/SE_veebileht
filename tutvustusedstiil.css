@@ -1,0 +1,63 @@
+
+.freya{
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marion{
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lumi-lee{
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.freyapilt{
+    margin-top: 5%;
+    margin-bottom: 6%;
+    margin-right: 5%;
+    margin-left: 7%;
+    justify-content: right;
+    flex-basis:50%;
+}
+.marionpilt{
+    margin-top: 5%;
+    margin-bottom: 6%;
+    margin-right: 5%;
+    margin-left: 3%;
+    justify-content: left;
+    flex-basis:50%;
+}
+
+.lumileepilt{
+    margin-top: 5%;
+    margin-bottom: 6%;
+    margin-right: 5%;
+    margin-left: 3%;
+    justify-content: left;
+    flex-basis:50%;
+}
+
+.freyatekst{
+    color:white;
+    margin-left:3%;
+}
+
+.lumileetekst{
+    margin-left:3%;
+}
+
+img{
+    max-width:100%;
+    border-radius: 10%;
+}
+

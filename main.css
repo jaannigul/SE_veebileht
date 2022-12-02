@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -5,7 +9,6 @@
   br {
     display: block; 
     content: ""; 
-    /*margin-top: 46px; */
   }
 
   body {
