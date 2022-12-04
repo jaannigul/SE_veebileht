@@ -15,6 +15,8 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("assets/img/Lombarti12.png");
     background-size:cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
 
   }
     h1, h2, h3, h4, h5{
@@ -78,6 +80,7 @@ html{
     padding: 10px;
     padding-bottom: 60px;
     text-align: center;
+
 
   }
 
@@ -206,4 +209,7 @@ html{
 @keyframes fadeVideoOut{
   from{opacity:100%}
   to{opacity:50%;}
+}
+.allButFooter { /*https://stackoverflow.com/questions/8824831/make-div-stay-at-bottom-of-pages-content-all-the-time-even-when-there-are-scrol*/
+  min-height: calc(100vh - 40px);
 }

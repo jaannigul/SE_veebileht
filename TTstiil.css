@@ -1,21 +1,8 @@
 
-.header img{/* image clickbox on liiga väike, ei tea miks */
-    float: left;
-    width:10%;
-    height:15%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-.header h2{
-    position:relative;
-    margin:60px;
-    text-align: center;
-    font-size: 35px;
-}
+/*https://www.w3schools.com/howto/howto_js_accordion.asp*/
 .accordion {
-    background-color: rgb(185, 185, 185);
-    color: #444;
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     padding: 18px;
     width: 50%;
@@ -24,35 +11,45 @@
     outline: none;
     transition: 0.2s;
     font-size: 18px;
+    font-weight: bold;
 
 }
 .active, .accordion:hover {
     background-color: #ccc;
+    
 }
   
 .panel {
     padding: 0 18px;
-    background-color: rgb(170, 170, 170);
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.2s ease-out;
-    width: 50%;
-    
+    width: 50%;    
+}
+.panel p{
+    color: #eee;
+
 }
 .accordion:after {
     content: '\02795'; /* pluss */
     font-size: 13px;
-    color: #777;
+
     float: right;
     
 }
   
 .active:after {
     content: "\2796"; /* miinus */
+    background-color: #ccc;
 }
 .flex-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 46px;
+
+}
+.allButFooter {
+    min-height: calc(100vh - 40px);
 }
