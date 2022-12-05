@@ -6,7 +6,7 @@
     font-size: 120%;
     padding-top: 4%;
     color: aliceblue;
-
+    position:relative;
 
 }
 .kontakt{
@@ -15,6 +15,9 @@
     padding-left: 5%;
     animation: slideVasakult;
     animation-duration: 2s;
+    position:relative;
+    left:0;
+    bottom:0;
 
 }
 
