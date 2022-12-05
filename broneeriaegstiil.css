@@ -5,15 +5,17 @@
     line-height: 1.5;
     font-size: 120%;
     padding-top: 4%;
-    padding-left: 5%;
     color: aliceblue;
-    animation: slideVasakult;
-    animation-duration: 1s;
+
 
 }
 .kontakt{
     font-size: 80%;
     line-height: 1;
+    padding-left: 5%;
+    animation: slideVasakult;
+    animation-duration: 2s;
+
 }
 
 .kaart{
@@ -26,6 +28,10 @@
 
 .form{
     float:left;
+    padding-left: 5%;
+
+    animation: slideVasakult;
+    animation-duration: 1s;
   
 }
 
