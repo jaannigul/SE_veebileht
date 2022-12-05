@@ -5,7 +5,7 @@
     color: rgb(0, 0, 0);
     cursor: pointer;
     padding: 18px;
-    width: 50%;
+    width: 65%;
     text-align: left;
     border: none;
     outline: none;
@@ -24,7 +24,7 @@
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.2s ease-out;
-    width: 50%;    
+    width: 65%;    
 }
 .panel p{
     color: #eee;
