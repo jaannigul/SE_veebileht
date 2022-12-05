@@ -6,17 +6,16 @@
     font-size: 120%;
     padding-top: 4%;
     color: aliceblue;
-    position:relative;
+
 
 }
 .kontakt{
     font-size: 80%;
     line-height: 1;
-    margin-bottom: 0;
-}
+    padding-left: 5%;
+    animation: slideVasakult;
+    animation-duration: 2s;
 
-footer{
-    margin-top:15%;
 }
 
 .kaart{
@@ -72,7 +71,9 @@ input {
     margin-bottom: 20px;
 }
 
-
+footer{
+    margin-top: 15%;
+}
 
 
 
@@ -82,6 +83,6 @@ input {
 }
 
 @keyframes slideParemalt {
-    from{opacity: 0; padding-right:-6%;}
+    from{opacity: 0; padding-right:0%;}
     to{opacity: 100; padding-right:0%;}
 }
