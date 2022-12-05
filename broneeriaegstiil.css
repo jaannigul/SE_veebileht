@@ -71,7 +71,9 @@ input {
     margin-bottom: 20px;
 }
 
-
+footer{
+    margin-top: 15%;
+}
 
 
 
@@ -81,6 +83,6 @@ input {
 }
 
 @keyframes slideParemalt {
-    from{opacity: 0; padding-right:-6%;}
+    from{opacity: 0; padding-right:0%;}
     to{opacity: 100; padding-right:0%;}
 }
