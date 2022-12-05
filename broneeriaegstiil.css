@@ -4,9 +4,56 @@
     box-sizing: border-box;
     line-height: 1.5;
     font-size: 120%;
-    padding-top: 3%;
+    padding-top: 4%;
     padding-left: 5%;
     color: aliceblue;
+    animation: slideVasakult;
+    animation-duration: 1s;
+
+}
+.kontakt{
+    font-size: 80%;
+    line-height: 1;
+}
+
+.kaart{
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 10%;
+    animation: slideParemalt;
+    animation-duration: 1s;
+}
+
+.form{
+    float:left;
+  
+}
+
+#nupp{
+    border:2px;
+    border-color: black;
+    background: rgb(49, 49, 72);
+    padding: 2%;
+    color:white;
+    width:auto;
+    text-transform: uppercase;
+    margin-top: 3%;
+
+}
+
+input, textarea{
+    font-family: sans-serif;
+    resize:none;
+    background: rgb(190, 190, 190);
+    display: block;
+    width: 100%;
+    border: 2px solid rgb(15, 15, 65);
+    padding: 1.5%;
+    border-radius: 7px;
+}
+
+#nupp:hover{
+    background:rgb(33, 33, 48);
 }
 
 br {
@@ -16,4 +63,18 @@ br {
 
 input {
     margin-bottom: 20px;
+}
+
+
+
+
+
+@keyframes slideVasakult {
+    from{opacity: 0; padding-left:0%;}
+    to{opacity: 100; padding-left:5%;}
+}
+
+@keyframes slideParemalt {
+    from{opacity: 0; padding-right:-6%;}
+    to{opacity: 100; padding-right:0%;}
 }
