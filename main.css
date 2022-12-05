@@ -179,6 +179,7 @@ html{
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .sotsiaalmeedia li{
@@ -191,9 +192,6 @@ html{
     border: 1.1px solid white;
     padding: 5px;
     border-radius: 50%;
-  }
-
-  .sotsiaalmeedia a i{
     font-size: 1.1rem;
     width: 20px;
     transition: color .4s ease;
