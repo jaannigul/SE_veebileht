@@ -12,13 +12,11 @@
 .kontakt{
     font-size: 80%;
     line-height: 1;
-    padding-left: 5%;
-    animation: slideVasakult;
-    animation-duration: 2s;
-    position:relative;
-    left:0;
-    bottom:0;
+    margin-bottom;
+}
 
+footer{
+    margin-top:15%;
 }
 
 .kaart{
