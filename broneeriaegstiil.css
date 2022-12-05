@@ -6,17 +6,16 @@
     font-size: 120%;
     padding-top: 4%;
     color: aliceblue;
-    position:relative;
+
 
 }
 .kontakt{
     font-size: 80%;
     line-height: 1;
-    margin-bottom;
-}
+    padding-left: 5%;
+    animation: slideVasakult;
+    animation-duration: 2s;
 
-footer{
-    margin-top:15%;
 }
 
 .kaart{
