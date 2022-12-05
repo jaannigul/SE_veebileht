@@ -42,22 +42,30 @@ html{
     color: #eee;
   }
   
+  .veerud{
+    display: table;
+  }
+
   .veerg {
     float: left;
-    padding: 10px;
-    height: 500px; /* muutlik? */
+    padding: 20px;
+    display: table-cell;
   }
   
   /* vasakpoolne ja parempoolne veerg on 25% lehe laiusest */
   .veerg.ääred {
     margin-top: 46px;
     width: 25%;
+    background-color: rgba(228, 228, 228, 0.65);
+    text-align: center;
   }
   
   /* keskmine veerg 50% lehe laiusest */
   .veerg.keskmine {
     margin-top:46px;
     width: 50%;
+    background-color: rgba(228, 228, 228, 0.8);
+    text-align: center;
   }
   
   .rida:after {
@@ -80,8 +88,6 @@ html{
     padding: 10px;
     padding-bottom: 60px;
     text-align: center;
-
-
   }
 
   .jalus-alus p{
@@ -103,13 +109,11 @@ html{
     }
   }
 
-   /* The navigation menu */
   .navbar {
     overflow: hidden;
     background-color: rgba(51,51,51,0.8);
   }
 
-  /* Navigation links */
   .navbar a {
     float: left;
     font-size: 16px;
@@ -119,13 +123,11 @@ html{
     text-decoration: none;
   }
 
-  /* The subnavigation menu */
   .subnav {
     float: left;
     overflow: hidden;
   }
 
-  /* Subnav button */
   .subnav .subnavbtn {
     font-size: 16px;
     border: none;
@@ -137,12 +139,10 @@ html{
     margin: 0;
   }
 
-  /* Add a red background color to navigation links on hover */
   .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: #c9232b;
   }
 
-  /* Style the subnav content - positioned absolute */
   .subnav-content {
     display: none;
     position: absolute;
@@ -152,22 +152,26 @@ html{
     z-index: 1;
   }
 
-  /* Style the subnav links */
   .subnav-content a {
     float: left;
     color: white;
     text-decoration: none;
   }
 
-  /* Add a grey background color on hover */
   .subnav-content a:hover {
     background-color: #eee;
     color: black;
   }
 
-  /* When you move the mouse over the subnav container, open the subnav content */
   .subnav:hover .subnav-content {
     display: block;
+  }
+
+  .lumileepilt img{
+    position: relative;
+    max-height: 280px;
+    max-width: 75%;
+    object-fit: contain;
   }
 
   .sotsiaalmeedia{
